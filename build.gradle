@@ -57,6 +57,8 @@ run.classpath += configurations.developmentOnly
 test.classpath += configurations.developmentOnly
 run.jvmArgs('-noverify', '-XX:TieredStopAtLevel=1')
 
+sourceSets.main.java.srcDir "build/generated/sources/annotationProcessor/java/main"
+
 mainClassName = "micronaut.mapstruct.Application"
 // use JUnit 5 platform
 test {
