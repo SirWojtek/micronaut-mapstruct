@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: micronaut.mapstruct
+---
+testFramework: junit
+sourceLanguage: java

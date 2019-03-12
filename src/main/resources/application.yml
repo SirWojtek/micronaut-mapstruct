@@ -1,0 +1,5 @@
+micronaut:
+    application:
+        name: micronaut-mapstruct
+jackson:
+    module-scan: false
